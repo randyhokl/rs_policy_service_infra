@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: policy-service
-        image: randyhokl/policy-service:33334f63041e2eef1779d1627ef4b1919b2b8349
+        image: randyhokl/policy-service:f432ab7090da7b851235e075a1a32ce72834fd6f
         imagePullPolicy: Always
         ports:
           - name: http
